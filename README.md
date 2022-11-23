@@ -16,7 +16,7 @@ Member-4 - Atul Harh(fw20_1210 )
 
 # Screenshot of Project
 
-![Screenshot!](images/Screenshot (502).png)
+![Screenshot!](../Screenshot (502).png)
 
 
 <!-- ![Screenshot!](images/Screenshot (503).png)
