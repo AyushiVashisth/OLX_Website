@@ -19,7 +19,7 @@ Member-4 - Atul Harh(fw20_1210 )
 ![Screenshot!](images/Screenshot (502).png)
 
 
-![Screenshot!](images/Screenshot (503).png)
+<!-- ![Screenshot!](images/Screenshot (503).png)
 
 
 ![Screenshot!](images/Screenshot (504).png)
@@ -61,7 +61,7 @@ Member-4 - Atul Harh(fw20_1210 )
 ![Screenshot!](images/Screenshot (5016).png)
 
 
-![Screenshot!](images/Screenshot (5017).png)
+![Screenshot!](images/Screenshot (5017).png) -->
 
 
 I Hope, We'll do our best
