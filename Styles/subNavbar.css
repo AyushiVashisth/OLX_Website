@@ -1,0 +1,88 @@
+/* <!-- ===============  Bottom Navbar  ============ */
+.navbar-2{
+    background-color: #f7f8f9;
+    box-shadow: 0 0 2px grey;
+    height: 35px;
+}
+.navbar-2> div{
+    width: 100%;
+}
+.navbar-2 a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-B {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border:0px solid #23e5db;
+    margin: auto;
+    font-size: 15px;
+}
+.navbar-B div{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.navbar-B h4:hover{
+    color: #00A495;
+}
+.navbar-B p:hover{
+    color: #00A495;
+}
+.allCategoies{
+    display: flex;
+    cursor: pointer;
+}
+.allCategoies i{
+    font-size: 20px;
+    transition: all 0.03s;
+    position: relative;
+    bottom:2px;
+    left: 7px;
+}
+.fulldropdown{
+    background-color: white;
+    box-shadow: 0 0 10px grey;
+    border: 0px solid black;
+    margin: auto;
+    grid: none;
+    cursor: pointer;
+    width: 90%;
+    height: auto;
+    position: absolute;
+    top: 95px;
+    z-index: 100;
+}
+.fulldropdown ul{
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 230px;
+}
+.fulldropdown  h2{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 29.1px;
+    margin-bottom: 6x;
+}
+.fulldropdown  h2:hover{
+    color: #00A495;
+}
+.fulldropdown  p:hover{
+    color: #00A495;
+}
+.fulldropdown p{
+    font-size: 14px;
+    line-height: 35px;
+}
+.properties{
+    margin-top: 60px;
+}
+
+.propertiesMobile{
+    background-color: white;    
+    cursor: pointer;
+}
+.hidden1{
+    display: grid;
+}

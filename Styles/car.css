@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+#navbar>div{
+    width: 100%;
+}
+#list-container{
+    width: 99%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    font-size: 12px;
+}
+#list{
+    display: flex;
+    list-style: none;
+    opacity: 90%;
+    cursor: pointer;
+}
+#intro{
+    width: 99%;
+    margin: 1rem auto;
+}
+#intro > p{
+    margin-bottom: 8px;
+    opacity: 70%;
+    font-size: 13px;
+}
+#main-container{
+    width: 99%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+#side-bar{
+    width: 25%;
+    height: fit-content;
+}
+#main-body{
+    width: 73%;
+    height: 100%;
+}
+.menu{
+    border-bottom: 1px solid #cfcdcd;
+    margin-bottom: 10px;
+    padding-bottom: 12px;
+}
+.menu>p{
+    font-size: 14px;
+    margin: 7px 0;
+}
+.select, input{
+    width: 100%;
+    overflow: visible;
+    padding: 5px 0;
+}
+.select option{
+    padding: 5px 0;
+}
+#query{
+    margin: 7px 0;
+}
+#brand{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px
+}
+h5{
+    margin-bottom: 5px;
+}
+#brand img{
+    width: 100%;
+    border: 1px solid #cfcdcd;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+#brand img:hover{
+    transform: scale(1.1);
+}
+#allCars{
+    width: 100%;
+    height: 60px;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+}
+#allCars p {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#sort > p {
+    line-height: 20px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #cfcdcd;
+    cursor: pointer;
+}
+#main-body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+#main-body div{
+    border: 1px solid #cfcdcd;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+#main-body div button{
+    margin-bottom: 5px;
+    padding: 5px 0;
+    background: rgb(39, 38, 38);
+    border: none;
+    color: white;
+}
+#main-body div p{
+    font-size: 12px;
+    margin: 5px 0;
+}
+#banner{
+    width: 100%;
+    height: 240px;
+}
+
+#page-button{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+}
+#page-button button {
+    padding: 8px 15px;
+    background: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#page-button button:hover{
+    border: 4px solid black;
+}

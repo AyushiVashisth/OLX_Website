@@ -1,0 +1,137 @@
+#Box1{
+    width: 26%;
+    height: auto;
+   
+    margin: auto;
+    
+    
+}
+
+#first{
+    margin-left: 20px;
+}
+#sign{
+    display: flex;
+    text-align: center;
+    border-bottom: 1px solid;
+    
+    }
+   #signTag{
+    margin-left: 20px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    text-decoration: none;
+   }
+   #signTag:hover{
+    color: black;
+    border-bottom: 2px solid grey;
+   } 
+   #signTag2{
+    font-size:15px;
+    text-decoration: none;
+    color: grey;
+   }
+   #signTag2:hover{
+    color: black;
+    border-bottom: 2px solid grey;
+   }
+   .naming{
+    font-size: 15px;
+    margin-left: 20px;
+    color: grey;
+    
+   }
+  
+   #name{
+    margin-top: -10px;
+    margin-left: 20px;
+    width: 90%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid black;
+   
+   }
+   #email{
+    margin-top: -10px;
+    margin-left: 20px;
+    width: 90%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid black;
+   
+   }
+   #password{
+    margin-top: -20px;
+    margin-left: 20px;
+    width: 90%;
+    height: 35px;
+    border-radius: 10px;      
+    border: 1px solid;
+   }
+   #checkbox{
+    margin-left: 20px;
+    margin-top: 10px;
+   }
+   #para{
+    margin-left: 20px;
+   }
+   #submit{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+ 
+    color:white;
+    background-color: black;
+   }
+   #submit:hover{
+    background-color: grey;
+   }
+   h3{
+    text-align: center;
+    color: grey;
+   }
+   .icon{
+    width: 90%;
+    height: 45px;
+    margin-left: 20px;
+    display: flex;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid black
+   
+   }
+   .icon:hover{
+    cursor: pointer;
+   }
+   #googleIcon{
+    width: 6%;
+    margin-top: 10px;
+   }
+   .icon>p{
+    margin: auto;
+    font-weight: bold;
+   }
+   
+   #appleIcon{
+    width: 12%;
+    margin-top: 6px;
+    margin-left: -10px;
+   }
+   #facebookIcon{
+    width: 6%;
+    margin-top: 8px;
+   }
+   #footer{
+    text-align: center;
+    margin-top: 15px;
+    
+   }
+   a{
+    color: black;
+   }

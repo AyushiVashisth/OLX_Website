@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Details</title>
+    <link rel="stylesheet" href="./Styles/Navbar.css">
+    <link rel="stylesheet" href="./Styles/footer.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./Styles/car.css" />
+  </head>
+  <body>
+    <!-- ===== Navbar Div Starts ===== -->
+    <div id="navbar"></div>
+    <!-- ===== Navbar Div Ends ===== -->
+
+    <!-- ===== Main Content Div Starts Here ===== -->
+    <div id="main-body-container">
+      <!-- top list -->
+      <div id="list-container">
+        <b>Popular Searches:</b>
+        <ul id="list">
+          <li>swift -&nbsp;</li>
+          <li>alto -&nbsp;</li>
+          <li>innova -&nbsp;</li>
+          <li>fortuner -&nbsp;</li>
+          <li>honda city -&nbsp;</li>
+          <li>bolero -&nbsp;</li>
+          <li>wagon r -&nbsp;</li>
+          <li>bmw -&nbsp;</li>
+          <li>omni</li>
+        </ul>
+      </div>
+      <!-- top list end -->
+  
+      <!-- Introduction -->
+      <div id="intro">
+        <p><a href="./index.html">Home</a></p>
+        <h2>Car Data</h2>
+      </div>
+      <!-- Intro Ends -->
+  
+      <!-- Main body -->
+      <div id="main-container">
+        <div id="side-bar">
+          <!-- Menu-1 -->
+          <div class="menu">
+            <h4>CATEGORIES</h4>
+            <p>Cars</p>
+            <select name="" id="" class="select">
+              <option value="">Choose</option>
+              <option value="Car">Cars (3,26,099)</option>
+            </select>
+          </div>
+  
+          <!-- Menu-2 -->
+          <div class="menu">
+            <h4>LOCATIONS</h4>
+            <p>India</p>
+            <select name="" id="" class="select">
+              <option value="">Choose</option>
+              <option value="">Maharastra (42,345)</option>
+              <option value="">Tamil Nadu (32,801)</option>
+              <option value="">Kerala (32,116)</option>
+              <option value="">Uttar Pradesh (28,021)</option>
+              <option value="">Delhi (26,759)</option>
+              <option value="">Karnataka (20,837)</option>
+              <option value="">Telangana (15,329)</option>
+              <option value="">Haryana (13,991)</option>
+              <option value="">Madhya Pradesh (9,771)</option>
+              <option value="">West Bengal (9,770)</option>
+            </select>
+          </div>
+          <!-- Menu-3 -->
+          <div class="menu">
+            <p>Filter</p>
+            <h4>BRAND AND MODEL</h4>
+            <input type="text" id="query" placeholder="Enter Brand" oninput="debounce(searhCar, 2000)">
+            <h5>POPULAR BRANDS</h5>
+            <div id="brand">
+              <img src="https://statics.olx.in/olxin/buyers/filters/v1/cars/make/maruti-suzuki_3x.webp" alt="maruti-suzuki">
+              <img onclick="hyundaidata()" src="https://statics.olx.in/olxin/buyers/filters/v1/cars/make/hyundai_3x.webp" alt="Hyndai">
+              <img onclick="mahindraData()" src="https://statics.olx.in/olxin/buyers/filters/v1/cars/make/mahindra_3x.webp" alt="Mahindra">
+              <img src="https://statics.olx.in/olxin/buyers/filters/v1/cars/make/toyota_3x.webp" alt="Toyota">
+              <img src="https://statics.olx.in/olxin/buyers/filters/v1/cars/make/tata_3x.webp" alt="Tata">
+              <img src="https://statics.olx.in/olxin/buyers/filters/v1/cars/make/honda_3x.webp" alt="Honda">
+            </div>
+          </div>
+          <!-- Menu-4 -->
+          <div class="menu">
+            <h5>MODELS</h5>
+            <div id="allCars">
+              <p onclick="fetchHyundai()"><i class="fa fa-square"></i> Hyundai (55,194)</p>
+              <p onclick="fetchMahindra()"><i class="fa fa-square"></i> Mahindra (29,307)</p>
+              <p><i class="fa fa-square"></i> Honda (21,568)</p>
+              <p><i class="fa fa-square"></i> Tata (20,188)</p>
+              <p><i class="fa fa-square"></i> Ford (11,216)</p>
+              <p><i class="fa fa-square"></i> Volkaswagen (8,678)</p>
+              <p><i class="fa fa-square"></i> Renault (8,017)</p>
+              <p><i class="fa fa-square"></i> Skoda (5,187)</p>
+            </div>
+          </div>
+          <!-- Menu-5 -->
+          <div class="menu">
+            <h5>BUDGET</h5>
+            <div id="sort">
+              <p onclick="lowtohigh()">Price: Low to High</p>
+              <p onclick="hightolow()">Price: High to Low</p>
+              <p onclick="lessThanFiveLac()">Price: Below 5Lac</p>
+              <p onclick="greaterThanFiveLac()">Price: Above 5Lac</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Append All Data -->
+        <div id="main-body"></div>
+      </div>
+      <!-- Main body -->
+      <div id="page-button">
+        <button onclick="increamentPage()">Load More</button>
+      </div>
+    </div>
+    <!-- ===== Main Content Div Ends Here ===== -->
+
+    <!-- ===== Footer Div Starts Here ===== -->
+    <div id="footer"></div>
+    <!-- ===== Footer Div ends Here ===== -->
+  </body>
+
+  <script src="./Script/admincar.js"></script>
+  <script src="./Script/header.js" type="module"></script>
+</html>

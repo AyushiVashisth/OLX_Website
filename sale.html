@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/mobile.css">
+    <link rel="stylesheet" href="./Styles/Navbar.css">
+    <link rel="stylesheet" href="./Styles/footer.css">
+    <link rel="stylesheet" href="./Styles/subNavbar.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="https://tse1.mm.bing.net/th?id=OIP.TUGZPVDFi0NFbJsHzTLZsQHaHa&pid=Api&P=0" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+   <link rel="stylesheet" href="./Styles/sale.css">
+</head>
+<body>
+    <!-- main div for side navbar and item box -->
+        <!-- ===== Navbar Div Starts ===== -->
+        <div id="navbar"></div>
+        <!-- =============== Subnavbar Navbar  ============ -->
+            
+        <div class="navbar-2" id="navbar-2"></div>
+        
+        <div><h2>Houses & Apartments For Sale</h2></div>
+    <div id="_style_main_navbar">
+            <!-- side navbar -->
+            <div class="_style_subnavbar" id="_style_leftnavbar">
+                <div>
+                    <div class="_style_category">
+                        <div class="_style_sidenav">
+                            <span class="style_font_navbar">CATEGORIES</span>
+                            <span id="_down_mob"><i class="ri-arrow-down-s-line"></i></span> 
+                            <span id="_up_mob"><i class="ri-arrow-up-s-line"></i></span>
+                        </div>
+                        
+                        <div class="mob_div" id="mob_section">
+                            <ul>
+                                <li class="style_font_navbar"> <span class="style_nav_name"><i class="ri-subtract-line"></i>ALL CATEGORY</span></li>
+                                <li> <span class="style_nav_name"><i class="ri-subtract-line"></i>Properties</span>
+                                    <ul>
+                                        <li class="style_font_navbar"><span style="background-color:#c8f8f6;">For Sale:Houses & Aparments(1,18,204)</span></li>
+                                        <li><span>For Rent: Houses & Apartments(94,607)</span></li>
+                                        <li><span>Lands & Plots(96,231)</span></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                           
+                           
+                        </div>
+                    </div>  
+                </div>
+  <!-- location -->
+                <div>
+                    <div class="_style_category">
+                        <div class="_style_sidenav">
+                            <span class="style_font_navbar">LOCATIONS</span>
+                            <span id="_down_city"><i class="ri-arrow-down-s-line"></i></span> 
+                            <span id="_up_city"><i class="ri-arrow-up-s-line"></i></span>
+                        </div>
+                        
+                        <div class="mob_div" id="locat_section">
+                                    <div id="city_section"></div>
+                        </div>
+                    </div>  
+                </div>
+
+        <!-- Budget -->
+        <div>
+            <div class="_style_category">
+                <div class="_style_sidenav">
+                    <span class="style_font_navbar">BUDGET</span>
+                    <span id="_down_bud"><i class="ri-arrow-down-s-line"></i></span> 
+                    <span id="_up_bud"><i class="ri-arrow-up-s-line"></i></span>
+                </div>
+                
+                <div class="slidecontainer">
+                    <p>Choose a range below</p>
+                    <input type="range" min="1" max="5000000"  value="1000" class="slider" id="myRange">
+                    <div style=" display: flex; align-items: center;  justify-content: space-between;">
+                        <p style="color: #002f34; font-weight: 800;">Value: <span id="demo"></span></p>
+                        <button id="budVal"> Apply</button>
+                    </div>
+                  
+                </div>
+               
+            </div>  
+        </div>
+
+        <!-- brand -->
+        <div>
+            <div class="_style_category">
+                <div class="_style_sidenav">
+                    <span class="style_font_navbar">TYPE</span>
+                    <span id="_down_brnd"><i class="ri-arrow-down-s-line"></i></span> 
+                    <span id="_up_brnd"><i class="ri-arrow-up-s-line"></i></span>
+                </div>
+
+                <div id="style_checkbox">
+                  
+                    
+                    <p>Choose from below options</p>
+                    
+                    <input type="checkbox" id="Villas"  value="iphone" class="checkinput">
+                    <label for="Mobile1">Houses & Villas (61,047)</label><br>
+
+                    <input type="checkbox" id="apartment"  value="apartment" class="checkinput">
+                    <label for="Mobile2">Apartments (42,942)</label><br>
+
+                    <input type="checkbox" id="builder"  value="builder" class="checkinput">
+                    <label for="Mobile3">Builder Floors(13,019)</label><br>
+
+                    <input type="checkbox" id="farm"  value="farm" class="checkinput">
+                    <label for="Mobile4">Farm Houses (1,195)</label><br>
+
+                  
+                </div>
+                
+               
+            </div>  
+        </div>
+
+                
+            </div>
+  <!-- seprate leftnavbar and item box -->
+        <div class="_style_subnavbar" id="_style_rightnavbar">
+            <div id="container"></div>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script src="./Script/sale.js"></script>
+    <script src="./Script/header.js" type="module"></script>
+</body>
+</html>

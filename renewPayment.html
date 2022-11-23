@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/renewPayment.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div id="eighty">
+        <div id="eightyone">
+            <h2>Enter your Shipping details</h2>
+            <form>
+                <input id="name" placeholder="NAME"/>
+                <input id="address" placeholder="ADDRESS"/>
+                <input id="city" placeholder="CITY"/>
+                <input id="state" placeholder="STATE"/>
+                <input type="number" id="pin" placeholder="PINCODE"/>
+            </form>
+
+        </div>
+        <div id="eightytwo">
+            <div id="card">
+                <h2>Enter your Card details</h2>
+                <form>
+                    <input type="number" id="cardno" placeholder="CARD NUMBER"/>
+                    <input type="text" id="cardowner" placeholder="CARD HOLDER'S NAME"/>
+                    <input type="number" id="cvv" placeholder = "ENTER CVV"/>
+                </form>
+                <button id="pay" onclick="payment()">Pay Now</button>
+            </div>
+            <div id="image">
+        
+            </div>
+        </div>
+    </div>
+    
+    <script src="./Script/renewPayment.js"></script>
+</body>
+</html>

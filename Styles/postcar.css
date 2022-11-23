@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+#back{
+    border-bottom: 2px solid #0001;
+    background: rgb(247, 247, 245);
+    padding: 25px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-arrow-alt-circle-left, .fa {
+    cursor: pointer;
+    font-size: 32px;
+}
+#heading{
+    font-size: 28px;
+    margin-top: 6.3rem;
+    text-align: center;
+}
+#main-content{
+    width: 70%;
+    height: auto;
+    border: 1px solid #cfcdcd;
+    border-radius: 8px;
+    margin: 1rem auto;
+}
+#top-1, #top-3{
+    border-bottom: 1px solid #cfcdcd;
+    padding: 10px;
+}
+#top-1 p{
+    margin-top: 1rem;
+    font-size: 14px;
+    color: black;
+}
+#top-1 p a{
+    color: black;
+    font-weight: bolder;
+}
+#top-2{
+    border-bottom: 1px solid #cfcdcd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#top-2 input, 
+#top-2 select,
+#top-3 select{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#trans{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 10px;
+}
+#trans p{
+    border: 1px solid #cfcdcd;
+    padding: 5px;
+    border-radius: 5px;
+}
+#post{
+    display: flex;
+    justify-content: center;
+}
+#post button{
+    padding: 5px 10px;
+    margin: 5px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+#post button:hover{
+    cursor: pointer;
+    padding: 8px 13px;
+    background: white;
+    color: black;
+}
+#bottom{
+    border: 1px solid black;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100;
+    background: #002f34;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+#countries, #classified{
+    padding-left: 10px;
+    font-size: 15px;
+    display: flex;
+    color: white;
+    list-style: none;
+}

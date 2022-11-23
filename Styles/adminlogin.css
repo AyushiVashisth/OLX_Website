@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+h2{
+    text-align: center;
+    margin-top: 3rem;
+}
+#adminform{
+    width: 40%;
+    height: auto;
+    border: 1px solid #cfcdcd;
+    border-radius: 8px;
+    margin: 1rem auto;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+#adminform input{
+    width: 50%;
+    padding: 8px 0;
+    margin: 8px auto;
+}
+#button{
+    background: black;
+    color: white;
+}
+#message{
+    text-align: center;
+}

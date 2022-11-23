@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/postcar.css">
+</head>
+<body>
+    <!-- Part 1 -->
+    <div id="back">
+        <p onclick="changePage()"><i class="far fa-arrow-alt-circle-left"></i></p>
+        <p onclick="adminlogin()"><i class="fa fa-user"></i></p>
+    </div> 
+
+    <p id="heading">Post Your Ad</p>
+    <div id="main-content">
+        <div id="top-1">
+            <h3 id="choose">SELECTED CATEGORY</h3>
+            <p>OLX Autos (Cars) / Cars&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./admin.html">Change</a></p>
+        </div>
+
+        <div id="top-2">
+            <h3 id="choose">INCLUDE SOME DETAILS</h3>
+            <select name="" id="model">
+                <option value="">Choose</option>
+                <option value="Hyudai">Hyundai</option>
+                <option value="Mahindra">Mahindra</option>
+                <option value="Maruti Suzuki">Maruti Suzuki</option>
+                <option value="Tata">Tata</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Honda">Honda</option>
+            </select>
+
+            <select name="" id="fuel">
+                <option value="CNG">CNG & Hybrids</option>
+                <option value="Diesel">Diesel</option>
+                <option value="Electric">LPG</option>
+                <option value="Petrol">Petrol</option>
+            </select>
+
+            <span id="trans">
+                <p>Automatic</p>
+                <p>Manual</p>
+            </span>
+
+            <input type="number" id="km" placeholder="KM driven">
+            <input type="url" id="image" placeholder="Image">
+            <input type="text" id="name" placeholder="Name">
+            <input type="number" id="year" placeholder="Year">
+            <input type="number" id="price" placeholder="Set A Price">
+            <input type="text" id="location" placeholder="Address">
+
+            <textarea name="" id="desc" cols="30" rows="5" placeholder="Description..."></textarea>
+        </div>
+
+        <div id="top-3">
+            <h3 id="choose">CONFIRM STATE</h3>
+            <select name="" id="" class="select">
+                <option value="">Choose</option>
+                <option value="">Maharastra</option>
+                <option value="">Tamil Nadu</option>
+                <option value="">Kerala</option>
+                <option value="">Uttar Pradesh</option>
+                <option value="">Delhi</option>
+                <option value="">Karnataka</option>
+                <option value="">Telangana</option>
+                <option value="">Haryana</option>
+                <option value="">Madhya Pradesh</option>
+                <option value="">West Bengal</option>
+              </select>
+        </div>
+
+        <div id="post">
+            <button onclick="postData()">Confirm</button>
+        </div>
+    </div>
+
+    <div id="bottom">
+        <ul id="countries">
+            <li>Other Countries &nbsp;&nbsp;&nbsp;</li>
+            <li>Pakistan -&nbsp;</li>
+            <li>South Africa -&nbsp;</li>
+            <li>Indonesia</li>
+        </ul>
+        <ul id="classified">
+            <li>Free Classified in India&nbsp;&nbsp; .&nbsp;</li>
+            <li>© 2006-2022 OLX&nbsp;&nbsp;&nbsp;</li>
+        </ul>
+    </div>
+</body>
+<script src="./Script/postcar.js"></script>
+</html>

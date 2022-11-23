@@ -1,0 +1,26 @@
+.Main_footer{
+    background-color: #ebeeef;
+    position: sticky;
+    bottom: 0%;
+    
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+}
+.footer_box h2{
+    font-size: 17px;
+    margin: 10px 0 15px 0;
+    cursor: pointer;
+}
+.footer_box p{
+    margin: 8px 0 8px 0;
+    cursor: pointer;
+    color: grey;
+}
+.footer_box p:hover{
+    color: black;
+}

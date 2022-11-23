@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller/Admin Page</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/admin.css">
+</head>
+<body>
+    <!-- PART - 1 -->
+    <div id="back">
+        <p onclick="changePage()"><i class="far fa-arrow-alt-circle-left"></i></p>
+    </div>
+
+    <!-- PART - 2 -->
+    <p id="heading">Post Your Ad</p>
+    <div id="main-content">
+        <h2 id="choose" class="options">CHOOSE A CATEGORY</h2>
+        <p onclick="redirect()" class="options"><i class="fa fa-car"></i> OLX Autos (Cars)</p>
+        <p class="options"><i class="fa fa-building"></i> Properties</p>
+        <p class="options"><i class="fas fa-mobile"></i> Mobiles</p>
+        <p class="options"><i class="fa fa-briefcase"></i> Jobs</p>
+        <p class="options"><i class="fa fa-motorcycle"></i> Bikes</p>
+        <p class="options"><i class="fa fa-desktop"></i> Electronics & Appliances</p>
+        <p class="options"><i class="fa fa-truck"></i> Commercial Vehicles & Spares</p>
+        <p class="options"><i class="fa fa-couch"></i> Furniture</p>
+        <p class="options"><i class="fa fa-book"></i> Books, Sports & Hobbies</p>
+        <p class="options"><i class="fa fa-dog"></i> Pets</p>
+        <p class="options"><i class="fa fa-bell-concierge"></i> Services</p>
+    </div>
+
+    <div id="bottom">
+        <ul id="countries">
+            <li>Other Countries &nbsp;&nbsp;&nbsp;</li>
+            <li>Pakistan -&nbsp;</li>
+            <li>South Africa -&nbsp;</li>
+            <li>Indonesia</li>
+        </ul>
+        <ul id="classified">
+            <li>Free Classified in India&nbsp;&nbsp; .&nbsp;</li>
+            <li>© 2006-2022 OLX&nbsp;&nbsp;&nbsp;</li>
+        </ul>
+    </div>
+</body>
+<script src="./Script/Admin.js"></script>
+</html>

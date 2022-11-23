@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/mobile.css">
+    <link rel="stylesheet" href="./Styles/Navbar.css">
+    <link rel="stylesheet" href="./Styles/footer.css">
+    <link rel="stylesheet" href="./Styles/subNavbar.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="https://tse1.mm.bing.net/th?id=OIP.TUGZPVDFi0NFbJsHzTLZsQHaHa&pid=Api&P=0" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+   <link rel="stylesheet" href="./Styles/mobile.css">
+</head>
+<body>
+    <!-- main div for side navbar and item box -->
+        <!-- ===== Navbar Div Starts ===== -->
+        <div id="navbar"></div>
+        <!-- =============== Subnavbar Navbar  ============ -->
+            
+        <div class="navbar-2" id="navbar-2"></div>
+        
+        <div style="display:flex; margin-left:6%; margin-top: 1%;">
+            <a href="index.html" style="color: gray;text-decoration: none;"> <span>Home</span></a>
+            <a href="mobile.html"style="color: gray;text-decoration: none;"> <span>/Mobile</span></a>
+           
+        </div>
+        <div style="margin-left: 6%; margin-top: 1%;"><h2>Used Mobile Phones in India</h2></div>
+    <div id="_style_main_navbar">
+            <!-- side navbar -->
+            <div class="_style_subnavbar" id="_style_leftnavbar">
+                <div>
+                    <div class="_style_category">
+                        <div class="_style_sidenav">
+                            <span class="style_font_navbar">CATEGORIES</span>
+                            <span id="_down_mob"><i class="ri-arrow-down-s-line"></i></span> 
+                            <span id="_up_mob"><i class="ri-arrow-up-s-line"></i></span>
+                        </div>
+                        
+                        <div class="mob_div" id="mob_section">
+                            <ul>
+                                <li class="style_font_navbar"> <span class="style_nav_name"><i class="ri-subtract-line"></i><a href="http:index.html">ALL CATEGORY</a> </span></li>
+                                <li> <span class="style_nav_name"><i class="ri-subtract-line"></i>MOBILE</span>
+                                    <ul>
+                                        <li class="style_font_navbar"><span style="background-color:#c8f8f6;">Mobile Phones</span></li>
+                                        <li><span>Accessories</span></li>
+                                        <li><span>Tablets</span></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                           
+                           
+                        </div>
+                    </div>  
+                </div>
+  <!-- location -->
+                <div>
+                    <div class="_style_category">
+                        <div class="_style_sidenav">
+                            <span class="style_font_navbar">LOCATIONS</span>
+                            <span id="_down_city"><i class="ri-arrow-down-s-line"></i></span> 
+                            <span id="_up_city"><i class="ri-arrow-up-s-line"></i></span>
+                        </div>
+                        
+                        <div class="mob_div" id="locat_section">
+                                    <div id="city_section"></div>
+                        </div>
+                    </div>  
+                </div>
+
+        <!-- Budget -->
+        <div>
+            <div class="_style_category">
+                <div class="_style_sidenav">
+                    <span class="style_font_navbar">BUDGET</span>
+                    <span id="_down_bud"><i class="ri-arrow-down-s-line"></i></span> 
+                    <span id="_up_bud"><i class="ri-arrow-up-s-line"></i></span>
+                </div>
+                
+                <div class="slidecontainer">
+                    <p>Choose a range below</p>
+                    <input type="range" min="1" max="50000"  value="1000" class="slider" id="myRange">
+                    <div style=" display: flex; align-items: center;  justify-content: space-between;">
+                        <p style="color: #002f34; font-weight: 800;">Value: <span id="demo"></span></p>
+                        <button id="budVal"> Apply</button>
+                    </div>
+                  
+                </div>
+               
+            </div>  
+        </div>
+
+        <!-- brand -->
+        <div>
+            <div class="_style_category">
+                <div class="_style_sidenav">
+                    <span class="style_font_navbar">BRAND</span>
+                    <span id="_down_brnd"><i class="ri-arrow-down-s-line"></i></span> 
+                    <span id="_up_brnd"><i class="ri-arrow-up-s-line"></i></span>
+                </div>
+
+                <div id="style_checkbox">
+                  
+                    
+                    <p>Popular Brands</p>
+                    
+                    <input type="checkbox" id="iphone"  value="iphone" class="checkinput">
+                    <label for="Mobile1">iPhone</label><br>
+
+                    <input type="checkbox" id="samsung"  value="samsung" class="checkinput">
+                    <label for="Mobile2">Samsung</label><br>
+
+                    <input type="checkbox" id="mi"  value="mi" class="checkinput">
+                    <label for="Mobile3">Mi</label><br>
+
+                    <input type="checkbox" id="vivo"  value="vivo" class="checkinput">
+                    <label for="Mobile4">Vivo</label><br>
+
+                    <input type="checkbox" id="oppo"  value="oppo" class="checkinput">
+                    <label for="Mobile5">Oppo</label><br>
+
+                    <input type="checkbox" id="realme"  value="realme" class="checkinput">
+                    <label for="Mobile6">Realme</label><br><br>
+                </div>
+                
+               
+            </div>  
+        </div>
+
+                
+            </div>
+  <!-- seprate leftnavbar and item box -->
+        <div class="_style_subnavbar" id="_style_rightnavbar">
+            <div id="container"></div>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script src="./Script/mobile.js" type="module"></script>
+</body>
+</html>

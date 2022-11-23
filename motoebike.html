@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikes</title>
+    <link rel="stylesheet" href="./Styles/Navbar.css">
+    <link rel="stylesheet" href="./Styles/footer.css">
+    <link rel="stylesheet" href="./Styles/car.css">
+    <link rel="stylesheet" href="./Styles/subNavbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+</head>
+<body>
+    <!-- ==== Navbar Div Starts Here ==== -->
+    <div id="navbar"></div>
+    <!-- ==== Navbar Div Ends Here ==== -->
+    <!-- =============== Subnavbar Navbar  ============ -->
+    
+<div class="navbar-2" id="navbar-2"></div>
+
+    <!-- ==== Main Body Div Starts ====  -->
+    <div id="main-content-box">
+        <!-- top list -->
+      <div id="list-container">
+        <b>Popular Searches:</b>
+        <ul id="list">
+          <li>bullet -&nbsp;</li>
+          <li>splender -&nbsp;</li>
+          <li>haybusa -&nbsp;</li>
+          <li>pulsar -&nbsp;</li>
+          <li>ktm -&nbsp;</li>
+          <li>yamaha -&nbsp;</li>
+          <li>apache rtr -&nbsp;</li>
+          <li>duke 200 -&nbsp;</li>
+          <li>fz -&nbsp;</li>
+          <li>platina</li>
+        </ul>
+      </div>
+      <!-- top list end -->
+  
+      <!-- Introduction -->
+      <div id="intro">
+        <p>Home / Bike</p>
+        <h2>Used Bikes in India</h2>
+      </div>
+      <!-- Intro Ends -->
+  
+      <!-- Main body -->
+      <div id="main-container">
+        <div id="side-bar">
+          <!-- Menu-1 -->
+          <div class="menu">
+            <h4>CATEGORIES</h4>
+            <p>Bikes</p>
+            <select name="" id="" class="select">
+              <option value="">Choose</option>
+              <option value="Motorcycles">Motorcycles (1,51,299)</option>
+              <option value="Scooters">Scooters (40,715)</option>
+              <option value="Spare Parts">Spare Parts (8,401)</option>
+            </select>
+          </div>
+  
+          <!-- Menu-2 -->
+          <div class="menu">
+            <h4>LOCATIONS</h4>
+            <p>India</p>
+            <select name="" id="" class="select">
+              <option value="">Choose</option>
+              <option value="">Maharastra (42,345)</option>
+              <option value="">Tamil Nadu (32,801)</option>
+              <option value="">Kerala (32,116)</option>
+              <option value="">Uttar Pradesh (28,021)</option>
+              <option value="">Delhi (26,759)</option>
+              <option value="">Karnataka (20,837)</option>
+              <option value="">Telangana (15,329)</option>
+              <option value="">Haryana (13,991)</option>
+              <option value="">Madhya Pradesh (9,771)</option>
+              <option value="">West Bengal (9,770)</option>
+            </select>
+          </div>
+          <!-- Menu-3 -->
+          <div class="menu">
+            <p>Filter</p>
+            <h4>BRAND AND MODEL</h4>
+            <input type="text" id="query" placeholder="Enter Bike Name" oninput="debounce(searhBikes, 1500)">
+            <h5>POPULAR BRANDS</h5>
+            <div id="brand">
+              <img src="https://1000logos.net/wp-content/uploads/2021/04/Royal-Enfield-logo-768x432.png" alt="maruti-suzuki">
+              <img onclick="Bajajdata()" src="https://1000logos.net/wp-content/uploads/2020/06/Bajaj-Logo-768x432.png" alt="Hyndai">
+              <img onclick="HondaData()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRhFDiCOcZ3NmQvv1J1OtNqogIsG18nLFX-g&usqp=CAU" alt="Honda">
+              <img src="https://1000logos.net/wp-content/uploads/2021/04/Hero-logo-768x432.png" alt="Toyota">
+              <img src="https://1000logos.net/wp-content/uploads/2020/06/Yamaha-Logo-768x432.png" alt="Tata">
+              <img src="https://motorcycle-logos.com/wp-content/uploads/2017/12/TVS-motors-logo.png" alt="Honda">
+            </div>
+          </div>
+          <!-- Menu-4 -->
+          <div class="menu">
+            <h5>MODELS</h5>
+            <div id="allCars">
+              <p onclick="fetchBajaj()"><i class="fa fa-square"></i> Bajaj (37,976)</p>
+              <p onclick="fetchHonda()"><i class="fa fa-square"></i> Honda (22,121)</p>
+              <p><i class="fa fa-square"></i> Hero (21,568)</p>
+              <p><i class="fa fa-square"></i> Yamaha (20,188)</p>
+              <p><i class="fa fa-square"></i> Honda (11,216)</p>
+              <p><i class="fa fa-square"></i> TVS (8,678)</p>
+              <p><i class="fa fa-square"></i> KTM (8,017)</p>
+              <p><i class="fa fa-square"></i> Suzuki (5,187)</p>
+            </div>
+          </div>
+          <!-- Menu-5 -->
+          <div class="menu">
+            <h5>BUDGET</h5>
+            <div id="sort">
+              <p onclick="lowtohigh()">Price: Low to High</p>
+              <p onclick="hightolow()">Price: High to Low</p>
+              <p onclick="lessThanFiveTh()">Price: Below 50000 Thousands</p>
+              <p onclick="greaterThanFiveTh()">Price: Above 50000 Thousands</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Append All Data -->
+        <div id="main-body"></div>
+      </div>
+      <!-- Main body -->
+      <div id="page-button">
+        <button onclick="increamentPage()">Load More</button>
+      </div>
+    </div>
+    <!-- ==== Main Body Div Ends Here -->
+
+    <!-- ==== Footer Div ==== -->
+    <div id="footer"></div>
+</body>
+<script src="./Script/motorbike.js"></script>
+<script src="./Script/header.js" type="module"></script>
+</html>
